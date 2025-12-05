@@ -1,0 +1,22 @@
+html{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 16px;
+  color: black;
+}
+h1 {
+
+  text-align:center; 
+  color:#d54a73;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #cdcde6, #7b8bb4,#a4b4cd);
+}
+nav{
+  display: flex;
+  flex-direction: row;
+  background-color:#8be68b;
+  margin: 0 15px;
+  padding: 10px;
+}

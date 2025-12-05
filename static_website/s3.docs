@@ -1,0 +1,32 @@
+Project Title
+Starting with AWS S3
+
+Overview
+
+
+Prerequisites
+AWS Free Tier Account
+
+Design
+
+Implementation
+Steps
+1) Create a S3 bucket 
+2) Give a unique bucket name. It should be between 3-63 character. Lowercase, numbers,(.),(-) are allowed
+3) Under Object Ownership, set ACL(Access Control List). Which is for setting ownership access to this bucket.
+4) Set public Access to bucket as required, and toggle bucket versioning. To preserve multiple versions of objects.
+5) Add a tag to specify permissions for bucket.
+6) Choose among the encryption options :
+    -SSE-S3: Server side encryption with managed keys.
+    -SSE-KMS: With Key Management service keys.
+    -DSSE-KMS: For dual layer KMS.
+Default is SSE-S3.
+A bucket key can be configured additionally, it can lower cost by decreasing traffic from S3 TO KMS.
+This applies for KMS.
+7)Object Locks are for write once read many (worm) to prevent object modification.
+
+Results
+
+Notes
+
+References

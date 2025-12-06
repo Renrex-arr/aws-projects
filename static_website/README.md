@@ -1,21 +1,21 @@
 # Hosting a static webpage on AWS using S3
 
-##Overview
+## Overview
 AWS S3 is an object-storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. 
 
-##Tech Stack
+## Tech Stack
 HTML/CSS
 Amazon S3 (Static website hosting
 
-##Design
+## Design
 A simple personal portfolio page with:
 Basic layout and text
 Minimal styling 
 Plans to expand design and functions later
 
-##Implementation
+## Implementation
 
-###Steps
+### Steps
 
 1)Sign into AWS console and open Amazon S3.
 1) Create a S3 bucket
@@ -67,16 +67,16 @@ Plans to expand design and functions later
     -You can re-enable "Block public access" again to stop requests charges when not using the website to minimize costs.
 
 
-##Results
+## Results
 Succesfully created a S3 bucket and hosted a public read access webpage.
 Understood basic AWS S3 bucket policies and endpoint managment.
 More confident to expand website and explore more aws services.
 
-##Notes
+## Notes
 -Billing on AWS free tier account is capped to allow exploring services for educative purposes, without incurring any additional bills for S3 storage: free 20,000 GET requests + 2000 PUT/POST/DELETE/OTHER and 5GB storage.
 -You may see a surpisingly high amount of requests (mine was ~93 GETs) even of a simple static server, this is due to the requirments for AWS to set the bucket enpoint and is normal.
 
 
 
-##References
+## References
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/HostingWebsiteOnS3Setup.html

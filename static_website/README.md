@@ -1,7 +1,7 @@
 # Hosting a static webpage on AWS using S3
 ![S3 Static Web hosting](../img/clouds3.jpg)
 ## Overview 
-![](/img/iconsaws/Architecture-Service-Icons_07312025/Arch_Storage/32/Arch_Amazon-Simple-Storage-Service_32.png)
+![](../img/iconsaws/Architecture-Service-Icons_07312025/Arch_Storage/32/Arch_Amazon-Simple-Storage-Service_32.png)
 AWS S3 is an object-storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. It is an easy platform for hosting static websites and webservers. I upload a simple portfolio webpage to explore these features and to connect theoretic knowledge with practical experience.
 
 ## Tech Stack
@@ -18,16 +18,18 @@ Plans to expand design functionality later
 
 ### Steps
 
-1)Sign into AWS console and open Amazon S3.
+1) Sign into AWS console and open Amazon S3.
    - Create a S3 bucket
    - Give a globally unique bucket name and disable "Block all public access". This allows us to view the webpage later.
    - Select the various options, such as encryption ACL as desired and click create bucket.
    - Upload your files to this bucket with "Add files". Ensure to upload all in the same root folder.
+     
    ![Files uploaded to bucket](../img/uploaded bucket files.png)
 
-2)Enable static web hosting
+2) Enable static web hosting
    - Locate your bucket under General purpose buckets and choose "Use this bucket to host a webstie" to enable it.
    - Enter your index.html file, error document and other JSON redirection links and save changes.
+     
    ![Enable static hosting](../img/enable static hosting.png)
    
 3) At bottom of the page you can find the endpoint for your bucket.

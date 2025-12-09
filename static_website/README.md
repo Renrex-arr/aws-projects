@@ -1,6 +1,7 @@
 # Hosting a static webpage on AWS using S3
-![S3 Static Web hosting](../img/clouds3.jpg)
-## Overview (../img/iconsaws/Architecture-Service-Icons_07312025/Arch_Storage/32/)
+![S3 Static Web hosting](/img/clouds3.jpg)
+## Overview 
+![](/img/iconsaws/Architecture-Service-Icons_07312025/Arch_Storage/32/)
 AWS S3 is an object-storage with a simple web service interface to store and retrieve any amount of data from anywhere on the web. It is an easy platform for hosting static websites and webservers. I upload a simple portfolio webpage to explore these features and to connect theoretic knowledge with practical experience.
 
 ## Tech Stack

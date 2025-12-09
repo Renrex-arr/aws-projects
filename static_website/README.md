@@ -24,13 +24,13 @@ Plans to expand design functionality later
    - Select the various options, such as encryption ACL as desired and click create bucket.
    - Upload your files to this bucket with "Add files". Ensure to upload all in the same root folder.
      
-   ![Files uploaded to bucket](../img/uploaded%bucket%files.png)
+   ![Files uploaded to bucket](./img/uploaded%bucket%files.png)
 
 2) Enable static web hosting
    - Locate your bucket under General purpose buckets and choose "Use this bucket to host a webstie" to enable it.
    - Enter your index.html file, error document and other JSON redirection links and save changes.
      
-   ![Enable static hosting](../img/enable%static%hosting.png)
+   ![Enable static hosting](./img/enable%static%hosting.png)
    
 3) At bottom of the page you can find the endpoint for your bucket.
     - You can paste this link on a browser to test, but it will say "Access denied", as we have not set a bucket policy yet

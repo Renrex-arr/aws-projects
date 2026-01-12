@@ -38,3 +38,56 @@ This project demonstrates **AWS container orchestration, CI/CD automation, and p
 5. ECS task definition updated using AWS CLI  
 6. ECS Fargate service pulls the new image and restarts  
 
+---
+
+---
+
+## Tech Stack
+- **Language / Framework**: JavaScript, discord.js  
+- **Containerization**: Docker  
+- **Cloud (AWS)**: ECS (Fargate), ECR, IAM, CloudWatch Logs  
+- **CI/CD**: GitLab CI, buildspec.yml, AWS CLI  
+
+---
+
+## CI/CD Pipeline
+Automated deployment pipeline includes:
+
+- Authenticate to Amazon ECR  
+- Build Docker image  
+- Tag and push image to ECR  
+- Update ECS task definition via AWS CLI  
+- Restart ECS Fargate service with new image  
+
+> **Outcome:** Fully automated, zero-manual deployments on every commit.
+
+---
+
+## Configuration & Secrets
+- Uses `.env` for local development  
+- Supports AWS Secrets Manager for production-grade secrets  
+- Discord bot token is never hardcoded  
+
+---
+
+## What This Project Demonstrates
+- AWS ECS Fargate service management  
+- Docker image lifecycle with Amazon ECR  
+- GitLab CI/CD automation  
+- AWS CLI–based infrastructure updates  
+- Production-style logging via CloudWatch  
+
+---
+
+## Future Improvements
+- Expand slash command functionality  
+- Fully integrate AWS Secrets Manager  
+- Add monitoring, alerts, and metrics  
+- Blue/green or rolling deployments  
+- Infrastructure-as-Code (IaC) for provisioning  
+
+---
+
+### Resume Bullet
+> Built and deployed a Dockerized Discord bot using **AWS ECS (Fargate)** and **Amazon ECR**, with a **GitLab CI/CD pipeline** that automatically builds, pushes, and deploys container updates on every commit.
+

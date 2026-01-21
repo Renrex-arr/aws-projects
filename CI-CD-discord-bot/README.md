@@ -36,7 +36,8 @@ This project demonstrates **AWS container orchestration, CI/CD automation, and p
 3. Docker image built via `buildspec.yml`  
 4. Image tagged and pushed to Amazon ECR  
 5. ECS task definition updated using AWS CLI  
-6. ECS Fargate service pulls the new image and restarts  
+6. ECS Fargate service pulls the new image and restarts
+7. Terraform Iac to manage and maintain services
 
 ---
 
@@ -46,7 +47,8 @@ This project demonstrates **AWS container orchestration, CI/CD automation, and p
 - **Language / Framework**: JavaScript, discord.js  
 - **Containerization**: Docker  
 - **Cloud (AWS)**: ECS (Fargate), ECR, IAM, CloudWatch Logs  
-- **CI/CD**: GitLab CI, buildspec.yml, AWS CLI  
+- **CI/CD**: GitLab CI, buildspec.yml, AWS CLI
+- **Iac**: Terraform
 
 ---
 
@@ -57,7 +59,8 @@ Automated deployment pipeline includes:
 - Build Docker image  
 - Tag and push image to ECR  
 - Update ECS task definition via AWS CLI  
-- Restart ECS Fargate service with new image  
+- Restart ECS Fargate service with new image
+- Terraform to regulate the services and maintain Iac.
 
 > **Outcome:** Fully automated, zero-manual deployments on every commit.
 
@@ -75,7 +78,8 @@ Automated deployment pipeline includes:
 - Docker image lifecycle with Amazon ECR  
 - GitLab CI/CD automation  
 - AWS CLI–based infrastructure updates  
-- Production-style logging via CloudWatch  
+- Production-style logging via CloudWatch
+- Iac using terraform for AWS services
 
 ---
 
@@ -84,7 +88,6 @@ Automated deployment pipeline includes:
 - Fully integrate AWS Secrets Manager  
 - Add monitoring, alerts, and metrics  
 - Blue/green or rolling deployments  
-- Infrastructure-as-Code (IaC) for provisioning  
 
 ---
 

@@ -42,7 +42,6 @@ This project demonstrates **AWS container orchestration, CI/CD automation, and p
 6. ECS Fargate service pulls the new image and restarts
 7. Terraform Iac to manage and maintain services
 
----
 
 ---
 
